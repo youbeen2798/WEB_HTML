@@ -1,0 +1,25 @@
+<!-- label 태그는 input 태그와 짝을 이루어 사용합니다.
+     해당 라디오박스가 무엇을 의미하는지는 사용자가 볼 수 있는 명칭을 부여할 때 label 태그를 사용합니다.
+     짝을 이루기 위해서는 input 태그에 id 속성을 사용하며, id 속성은 태그에 이름을 붙이거나 고유한 명칭을 부여할 때 사용합니다.
+     label 태그에서 사용한 for 속성값과 input 태그의 id 속성값을 일치시켜서 사용합니다. -->
+
+<!-- label 태그 사용 방법
+     <label for = "input 태그의 id 속성값">명칭</label>
+     <input type = "radio" name = "gd" value = "w" id = "이 페이지에서 사용할 고유한 이름" />
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8" />
+  <title> label 태그활용 </title>
+</head>
+<body>
+  <h1> label 태그의 활용 </h1>
+  <p> 성별 선택 </p>
+  <label for = "woman">여성</label>
+  <input type = "radio" name = "gender" value = "w" id = "woman" />
+  <label for = "man">남성</label>
+  <input type = "radio" name = "gender" value = "m" id = "man" />
+</body>
+</html>
