@@ -1,0 +1,17 @@
+<!-- type 속성값이 submit이면 여러 값들을 action 속성에 입력된 페이지로 전송합니다.
+     이를 위해서는 데이터베이스에서 저장하는 기능을 갖추고 있는 PHP 파트를 공부해야합니다. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8" />
+  <title> input 태그활용 </title>
+</head>
+<body>
+  <h1> input태그의 type이 submit </h1>
+  <form name = "signup" method = "post" action  = "signup.php">
+    <input type = "text" name = "UserId" value = "myid" />
+    <input type = "submit" value = "완료" />
+  </form>
+</body>
+</html>
