@@ -1,0 +1,26 @@
+<!-- 텍스트 크기를 조정하는 CSS 속성은 font-size입니다.
+     값은 숫자를 사용하고, 단위는 px를 사용합니다.
+     숫자가 크면 텍스트의 크기가 크고, 숫자가 작으면 텍스트의 크기도 작습니다. -->
+
+<!-- font-size 속성 사용 방법
+     선택자{font-size:숫자 단위}
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8" />
+  <title> 텍스트의 크기 조정하기 </title>
+  <style>
+    .fontSize10{font-size:10px}
+    .fontSize20{font-size:20px}
+    .fontSize30{font-size:30px}
+    p{font-size:50px}
+  </style>
+</head>
+<body>
+  <p class = "fontSize10">font-size는 10</p>
+  <p class = "fontSize20">font-size는 20</p>
+  <p class = "fontSize30">font-size는 30</p> <!-- 폰트사이즈는 30(p와 class 속성이 겹친다면 class 우선) -->
+</body>
+</html>
