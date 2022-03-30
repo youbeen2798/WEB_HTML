@@ -1,0 +1,77 @@
+<!-- table 태그는 시간표, 달력과 같은 데이터를 구현할 때 사용하며, 통계자료를 출력할 때 사용합니다.
+     table 태그는 tr태그, td 태그로 이루어져 있습니다.
+     tr태그는 새로운 줄을 생성하고, td 태그는 새로운 태그를 생성합니다. -->
+
+<!-- table 태그 사용 방법
+     <table>
+       <tr>
+         <td> 월 </td>
+         <td> 화 </td>
+      </tr>
+    </table>
+-->
+
+<!-- table 태그가 지원하는 여러 속성
+    1. align / 값 : left, center, right / 설명 : 테이블을 어디에 정렬할 것인지 지정
+    2. bgcolor / 값: 색값 / 설명 : 테이블의 배경색 지정
+    3. background / 값 : 배경 그림 / 설명 : 테이블의 배경 그림 지정
+    4. border / 값 : 두께 / 설명 : 테이블 테두리의 두께 지정
+    5. bordercolor / 값 : 색값 / 설명 : 테이블 테두리의 색상 지정
+    6. cellspacing / 값 : 간격 / 설명 : 셀과 셀 사이의 간격 지정
+    7. cellpadding / 값 : 여백 / 설명 : 셀 안의 내용과 여백 지정
+    8. height / 값 : 크기, 비율 / 설명 : 픽셀로 입력할 때 절댓값, % 단위로 입력 시 웹브라우저 크기에 대한 상댓값
+    9. width / 값 : 크기, 비율 / 설명 : 픽셀로 입력할 때 절댓값, % 단위로 입력 시 웹브라우저 크기에 대한 상댓값
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8" />
+  <title> table 태그활용 </title>
+</head>
+<body>
+  <table width = 100% bgcolor = "pink" cellpadding = "7"  cellspacing ="10">
+    <tr align = "center" bgcolor = "skyblue">
+      <td></td>
+      <td>월</td>
+      <td>화</td>
+      <td>수</td>
+      <td>목</td>
+      <td>금</td>
+    </tr>
+    <tr align = "center" bgcolor = "white">
+      <td>1교시</td>
+      <td>체육</td>
+      <td>물리</td>
+      <td>과학</td>
+      <td>독일어</td>
+      <td>수학</td>
+    </tr>
+    <tr align = "center" bgcolor = "white">
+      <td>2교시</td>
+      <td>수학</td>
+      <td>국어</td>
+      <td>영어</td>
+      <td>윤리</td>
+      <td>물리</td>
+    </tr>
+    <tr align = "center" bgcolor = "white">
+      <td>3교시</td>
+      <td>과학</td>
+      <td>수학</td>
+      <td>물리</td>
+      <td>국어</td>
+      <td>영어</td>
+    </tr>
+    <tr align = "center" bgcolor = "white">
+      <td>4교시</td>
+      <td>물리</td>
+      <td>체육</td>
+      <td>영어</td>
+      <td>윤리</td>
+      <td>일본어</td>
+    </tr>
+  </table>
+</body>
+</html>
